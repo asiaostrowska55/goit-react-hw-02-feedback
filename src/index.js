@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
+import { Feedback } from 'components/Feedback';
+import { Statistics } from 'components/Statistics';
 import './index.css';
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+root.render(
   <React.StrictMode>
-    <App />
+    <Feedback />
+    <Statistics />
   </React.StrictMode>
 );

@@ -1,0 +1,15 @@
+.btnDisplay {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgba(179, 179, 179, 1);
+  font-weight: 600;
+}
+.btn:hover,
+:focus {
+  background-color: rgb(84, 138, 255);
+}
