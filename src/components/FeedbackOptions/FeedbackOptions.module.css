@@ -4,6 +4,7 @@
 }
 
 .btn {
+  text-transform: capitalize;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 1px solid rgba(179, 179, 179, 1);
